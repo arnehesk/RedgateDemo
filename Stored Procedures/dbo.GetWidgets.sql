@@ -9,5 +9,5 @@ CREATE PROCEDURE [dbo].[GetWidgets]
     @parameter_name AS INT
 -- WITH ENCRYPTION, RECOMPILE, EXECUTE AS CALLER|SELF|OWNER| 'user_name'
 AS
-    SELECT * FROM dbo.Widgets 
+    SELECT SKU FROM dbo.Widgets 
 GO
